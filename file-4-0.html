@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///E:/java/zzz/BOOTSTRAP/bshandson-master/handson4.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./file-4_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./file-4_files/gijgo.min.css" rel="stylesheet" type="text/css">
+    <title>Hello, world!</title>
+	<style>
+	.sharp {
+  border-radius:0;
+}
+	</style>
+  </head>
+  <body>
+
+	
+	<div class="container">
+	<h1>New Employee</h1>
+<form action="file:///E:/action_page.php">
+
+	<div class="row">
+	 <div class="col-lg-4">
+ 	  <div class="form-group">
+    	   <label for="fname">First Name</label>
+    	   <input type="text" class="form-control" id="fname">
+  	  </div>
+	 </div>
+	 <div class="col-lg-4">
+ 	  <div class="form-group">
+    	   <label for="mname">Middle Name</label>
+    	   <input type="text" class="form-control" id="mname">
+  	  </div>
+	 </div>
+	 <div class="col-lg-4">
+ 	  <div class="form-group">
+    	   <label for="lname">Last Name</label>
+    	   <input type="text" class="form-control" id="lname">
+  	  </div>
+	 </div>
+	</div>
+
+	
+	<div class="row">
+	 <div class="col-lg-6">
+ 	  <div class="form-group">
+    	   <label for="addressline1">Address Line 1</label>
+    	   <input type="text" class="form-control" id="address1">
+  	  </div>
+	 </div>
+	 <div class="col-lg-6">
+ 	  <div class="form-group">
+    	   <label for="addressline2">Address Line 2</label>
+    	   <input type="text" class="form-control" id="address2">
+  	  </div>
+	 </div>
+	</div>
+	
+
+	
+	<div class="row">
+	 <div class="col-lg-6">
+ 	  <div class="form-group">
+    	   <label for="email">Email</label>
+    	   <input type="email" class="form-control" id="email" required="">
+  	  </div>
+	 </div>
+	 <div class="col-lg-3">
+ 	  <div class="form-group">
+    	   <label for="password">Password</label>
+    	   <input type="password" class="form-control" id="password">
+  	  </div>
+	 </div>
+	 <div class="col-lg-3">
+ 	  <div class="form-group">
+    	   <label for="confirmpassword">Confirm Password</label>
+    	   <input type="password" class="form-control" id="cpassword">
+  	  </div>
+	 </div>
+	</div>
+	
+<div class="row">
+ 
+ 
+		<div class="col-lg-6"> 
+     <div class="form-group">
+        
+    <label for="department">Department</label>
+   
+         <div class="input-group">
+         
+       <input type="text" value="" class="form-control" name="text">
+    
+            <div class="input-group-btn bs-dropdown-to-select-group">
+  
+       <button type="button" class="btn btn-default dropdown-toggle as-is bs-dropdown-to-select" data-toggle="dropdown">
+ 
+                       
+ 
+                       <input type="hidden" name="selected_value" data-bind="bs-drp-sel-value" value="">
+                        <span class="caret"></span>
+           
+             <span class="sr-only">Toggle Dropdown</span>
+   
+                 </button>
+         
+           <ul class="dropdown-menu" role="menu" style="">
+  
+                      <li data-value="1"><a href="file:///E:/java/zzz/BOOTSTRAP/bshandson-master/handson4.html#">One</a></li>
+   
+                     <li data-value="2"><a href="file:///E:/java/zzz/BOOTSTRAP/bshandson-master/handson4.html#">Two</a></li>
+     
+                   <li data-value="3"><a href="file:///E:/java/zzz/BOOTSTRAP/bshandson-master/handson4.html#">Three</a></li>
+  
+                  </ul>
+       
+         </div>
+        
+    </div>
+   
+     </div>
+	</div>
+	
+	
+	<div class="col-lg-6">
+	<div class="form-group">
+        
+    <label for="department">Department</label>
+   
+         <div class="input-group">
+         
+	<div role="wrapper" class="gj-datepicker gj-datepicker-bootstrap gj-unselectable input-group"><input type="text" class="form-control" id="dateOfBirth" data-type="datepicker" data-guid="d311f39a-ad85-cb5e-7dd9-d619c406b0a6" data-datepicker="true" role="input"><span class="input-group-append" role="right-icon"><button class="btn btn-outline-secondary border-left-0" type="button"><i class="gj-icon">event</i></button></span></div>
+	</div>
+  	</div>
+	</div>
+
+	<div class="col-lg-6">
+	<label for="gender">Gender</label>
+
+	<div class="custom-control custom-checkbox">
+  	<input type="checkbox" class="custom-control-input" id="defaultUncheckedDisabled2">
+  	<label class="custom-control-label" for="defaultUncheckedDisabled2">Male</label>
+	</div>
+	<div class="custom-control custom-checkbox">
+  	<input type="checkbox" class="custom-control-input" id="defaultCheckedDisabled2">
+  	<label class="custom-control-label" for="defaultCheckedDisabled2">Female</label>
+	</div>
+	</div>
+
+    <div class="col-lg-6">
+  <label for="permanent">Permanent</label>
+
+  <div class="custom-control custom-checkbox">
+    <input type="checkbox" class="custom-control-input" id="defaultUncheckedDisabled2" checked="">
+    <label class="custom-control-label" for="defaultUncheckedDisabled2"></label>
+  </div>
+  </div>
+
+
+
+  </div>	
+
+<br>
+	<div class="row">
+	
+	<div class="col-lg">
+		<button type="button" class="btn btn-success sharp">Save</button>
+	</div>
+	</div>
+</form>
+  	
+  	</div>
+	
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./file-4_files/jquery-3.3.1.slim.min.js.download" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./file-4_files/popper.min.js.download" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./file-4_files/bootstrap.min.js.download" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <script src="./file-4_files/gijgo.min.js.download" type="text/javascript"></script>
+
+	<script>
+
+	$('#dateOfBirth').datepicker({
+
+	uiLibrary: 'bootstrap4',
+
+	format: 'dd/mm/yyyy'
+
+	});
+
+	</script><div role="calendar" type="month" class="gj-picker gj-picker-bootstrap datepicker gj-unselectable" guid="d311f39a-ad85-cb5e-7dd9-d619c406b0a6" month="3" year="2020" style="display: none;"><div role="body"></div></div>
+
+
+
+</body></html>
